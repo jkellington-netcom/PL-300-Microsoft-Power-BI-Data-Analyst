@@ -88,7 +88,7 @@ In this task you will design the first report page. When you’ve completed the 
 
 ![Image of page 1, comprising a logo, two slicers, and three visuals.](Linked_image_Files/07-design-report-in-power-bi-desktop_image12.png)
 
-	*Note: Due to network limitations of the VISA environment, you will not be uploading the logo image that is represented by a gray box in the upper left portion 	of the report.*
+	*Note: Due to network limitations of the VISA environment, you will not be uploading the logo image.*
 
 1. In Power BI, to rename the page, at the bottom-left, right-click **Page 1**, and then select **Rename**.
 
