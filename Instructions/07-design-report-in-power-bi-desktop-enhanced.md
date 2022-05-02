@@ -21,29 +21,6 @@ In this lab you learn how to:
 
 - Create and use bookmarks
 
-### **Lab story**
-
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
-
-1. Prepare Data in Power BI Desktop
-
-2. Load Data in Power BI Desktop
-
-3. Model Data in Power BI Desktop
-
-5. Create DAX Calculations in Power BI Desktop, Part 1
-
-6. Create DAX Calculations in Power BI Desktop, Part 2
-
-7. Design a Report in Power BI Desktop, Part 1
-
-8. **Design a Report in Power BI Desktop, Part 2**
-
-9. Create a Power BI Dashboard
-
-10. Perform Data Analysis in Power BI Desktop
-
-11. Enforce Row-Level Security
 
 ## **Exercise 1: Configure Sync Slicers**
 
@@ -81,63 +58,7 @@ In this task you will setup the environment for the lab by signing in to Power B
 
  	![Picture 22](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image3.png)
 
-1. Leave the Microsoft Edge browser window open.
-
-### Task 2: Get started – Open report
-
-In this task you will setup the environment for the lab by opening the starter report.
-
-*Important: If you are continuing on from the previous lab (and you completed that lab successfully), do not complete this task; instead, continue from the next task.*
-
-1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
-
-	![Picture 10](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image4.png)
-
-2. To close the getting started window, at the top-left of the window, click **X**.
-
-	![Picture 9](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image5.png)
-
-3. To sign in to the Power BI service, at the top-right, click **Sign In**.
-
-	![Picture 8](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image6.png)
-
-4. Complete the sign in process using the same account used to sign in to the Power BI service.
-
-5. To open the starter Power BI Desktop file, click the **File** ribbon tab to open the backstage view.
-
-6. Select **Open Report**.
-
-	![Picture 7](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image7.png)
-
-7. Click **Browse Reports**.
-
-	![Picture 6](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image8.png)
-
-8. In the **Open** window, navigate to the **D:\PL300\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter** folder.
-
-9. Select the **Sales Analysis** file.
-
-10. Click **Open**.
-
-	![Picture 5](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image9.png)
-
-11. Close any informational windows that may open.
-
-12. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
-
-13. Select **Save As**.
-
-	![Picture 4](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image10.png)
-
-14. If prompted to apply changes, click **Apply**.
-
-	![Picture 3](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image11.png)
-
-15. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
-
-16. Click **Save**.
-
-	![Picture 2](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image12.png)
+1. Open the **Sales Analysis** report and select **Edit**.
 
 ### **Task 3: Sync slicers**
 
@@ -145,7 +66,7 @@ In this task you will sync the **Year** and **Region** slicers.
 
 *You will continue the development of the report created in the **Design a Report in Power BI Desktop, Part 1** lab.*
 
-1. In Power BI Desktop, on the **Overview** page, set the **Year** slicer to **FY2018**.
+1. In Power BI, on the **Overview** page, set the **Year** slicer to **FY2018**.
 
 2. Go to the **My Performance** page, and then notice that the **Year** slicer is a different value.
 
@@ -153,11 +74,9 @@ In this task you will sync the **Year** and **Region** slicers.
 
 3. Return to the **Overview** page, and then select the **Year** slicer.
 
-4. On the **View** ribbon tab, from inside the **Show Panes** group, click **Sync Slicers**.
+4. On the **View** ribbon tab, switch the **Sync Slicers pane** to **On**.
 
-	![Picture 1](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image13.png)
-
-5. In the **Sync Slicers** pane (at the left of the **Visualizations** pane), in the second column (which represents syncing), check the checkboxes for the **Overview** and **My Performance** pages.
+5. In the **Sync Slicers** pane (at the left of the **Visualizations** pane), in the first column (which represents syncing), check the checkboxes for the **Overview** and **My Performance** pages.
 
 	![Picture 93](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image14.png)
 
@@ -331,13 +250,9 @@ In this task you will add two bookmarks, one to display each of the monthly sale
 
 1. Go to the **My Performance** page.
 
-2. On the **View** ribbon tab, from inside the **Show Panes** group, click **Bookmarks**.
+2. On the **View** ribbon tab, switch **Bookmarks pane** to **On**.
 
-	![Picture 118](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image39.png)
-
-3. On the **View** ribbon tab, from inside the **Show Panes** group, click **Selection**.
-
-	![Picture 119](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image40.png)
+3. On the **View** ribbon tab, switch **Selections pane** to **On**.
 
 4. In the **Selection** pane, beside one of the **Sales and Target by Month** items, to hide the visual, click the eye icon.
 
@@ -424,40 +339,6 @@ In this task you will add two buttons, and assign bookmark actions to each.
 	- In the **Action** section, set the **Bookmark** dropdown list to **Column Chart ON**
 
 	*The design of the Sales Analysis report is now complete.*
-
-### **Task 3: Publish the report**
-
-In this task you will publish the report.
-
-1. Select the **Overview** page.
-
-2. In the **Year** slicer, select **FY2020**.
-
-3. In the **Region** slicer, select **Select All**.
-
-4. Save the Power BI Desktop file.
-
-	*The file must always be saved prior to publishing to the Power BI service.*
-
-5. On the **Home** ribbon tab, from inside the **Share** group, click **Publish**.
-
-	![Picture 21](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image52.png)
-
-6. In the **Publish to Power** BI window, notice that **My Workspace** is selected.
-
-7. To publish the report, click **Select**.
-
-	![Picture 20](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image53.png)
-
-8. If prompted to replace the dataset, click **Replace**.
-
-9. When the publication has succeeded, click **Got It**.
-
-	![Picture 19](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image54.png)
-
-10. Close Power BI Desktop.
-
-	*You’ll explore the report in the Power BI service in the next exercise.*
 
 ## **Exercise 5: Explore the Report**
 
