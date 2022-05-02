@@ -17,30 +17,6 @@ In this lab you learn how to:
 
 - Configure visual fields and format properties
 
-### **Lab story**
-
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
-
-1. Prepare Data in Power BI Desktop
-
-2. Load Data in Power BI Desktop
-
-3. Model Data in Power BI Desktop
-
-5. Create DAX Calculations in Power BI Desktop, Part 1
-
-6. Create DAX Calculations in Power BI Desktop, Part 2
-
-7. **Design a Report in Power BI Desktop, Part 1**
-
-8. Design a Report in Power BI Desktop, Part 2
-
-9. Create a Power BI Dashboard
-
-10. Perform Data Analysis in Power BI Desktop
-
-11. Enforce Row-Level Security
-
 ## **Exercise 1: Create a Report**
 
 In this exercise you will create a three-page report named **Sales Report**.
@@ -104,64 +80,7 @@ In this task you will enable map and filled map visuals in the environment for t
 	![Picture 105](Linked_image_Files/07-design-report-in-power-bi-desktop_image105.png)
 
 
-
 1. Leave the Microsoft Edge browser window open.
-
-### **Task 3: Get started – Open report**
-
-In this task you will setup the environment for the lab by opening the starter report.
-
-*Important: If you are continuing on from the previous lab (and you completed that lab successfully), do not complete this task; instead, continue from the next task.*
-
-1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
-
-	![Picture 48](Linked_image_Files/07-design-report-in-power-bi-desktop_image3.png)
-
-2. To close the getting started window, at the top-left of the window, click **X**.
-
-	![Picture 47](Linked_image_Files/07-design-report-in-power-bi-desktop_image4.png)
-
-3. To sign in to the Power BI service, at the top-right, click **Sign In**.
-
-	![Picture 66](Linked_image_Files/07-design-report-in-power-bi-desktop_image5.png)
-
-4. Complete the sign in process using the same account used to sign in to the Power BI service.
-
-5. To open the starter Power BI Desktop file, click the **File** ribbon tab to open the backstage view.
-
-6. Select **Open Report**.
-
-	![Picture 31](Linked_image_Files/07-design-report-in-power-bi-desktop_image6.png)
-
-7. Click **Browse Reports**.
-
-	![Picture 30](Linked_image_Files/07-design-report-in-power-bi-desktop_image7.png)
-
-8. In the **Open** window, navigate to the **D:\PL300\Labs\06-design-report-in-power-bi-desktop\Starter** folder.
-
-9. Select the **Sales Analysis** file.
-
-10. Click **Open**.
-
-	![Picture 16](Linked_image_Files/07-design-report-in-power-bi-desktop_image8.png)
-
-11. Close any informational windows that may open.
-
-12. To create a copy of the file, click the **File** ribbon tab to open the backstage view.
-
-13. Select **Save As**.
-
-	![Picture 8](Linked_image_Files/07-design-report-in-power-bi-desktop_image9.png)
-
-14. If prompted to apply changes, click **Apply**.
-
-	![Picture 5](Linked_image_Files/07-design-report-in-power-bi-desktop_image10.png)
-
-15. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
-
-16. Click **Save**.
-
-	![Picture 4](Linked_image_Files/07-design-report-in-power-bi-desktop_image11.png)
 
 ### **Task 4: Design page 1**
 
@@ -169,7 +88,9 @@ In this task you will design the first report page. When you’ve completed the 
 
 ![Image of page 1, comprising a logo, two slicers, and three visuals.](Linked_image_Files/07-design-report-in-power-bi-desktop_image12.png)
 
-1. In Power BI Desktop, to rename the page, at the bottom-left, right-click **Page 1**, and then select **Rename**.
+	*Note: Due to network limitations of the VISA environment, you will not be uploading the logo image that is represented by a gray box in the upper left portion 	of the report.*
+
+1. In Power BI, to rename the page, at the bottom-left, right-click **Page 1**, and then select **Rename**.
 
 	![Picture 36](Linked_image_Files/07-design-report-in-power-bi-desktop_image13.png)
 
@@ -178,20 +99,6 @@ In this task you will design the first report page. When you’ve completed the 
 2. Rename the page as **Overview**, and then press **Enter**.
 
 	![Picture 37](Linked_image_Files/07-design-report-in-power-bi-desktop_image14.png)
-
-3. To add an image, on the **Insert** ribbon tab, from inside the **Elements** group, click **Image**.
-
-	![Picture 1](Linked_image_Files/07-design-report-in-power-bi-desktop_image15.png)
-
-4. In the **Open** window, navigate to the **D:\PL300\Resources** folder.
-
-5. Select the **AdventureWorksLogo.jpg** file, and then click **Open**.
-
-	![Picture 11](Linked_image_Files/07-design-report-in-power-bi-desktop_image16.png)
-
-6. Drag the image to position it at the top-left corner, and also drag the guide markers to resize it.
-
-	![Picture 12](Linked_image_Files/07-design-report-in-power-bi-desktop_image17.png)
 
 7. To add a slicer, first de-select the image by clicking an empty area of the report page.
 8. In the **Fields** pane, select the **Date \| Year** field (not the **Year** level of the hierarchy).
@@ -474,32 +381,6 @@ In this task you will design the third—and final—report page. When you’ve 
 	*It’s now possible to see the same data expressed by two different visualization types. This isn’t a good use of the page layout, however, you’ll improve it in the **Design a Report in Power BI Desktop, Part 2** lab by superimposing the visuals. By adding buttons to the page, you’ll allow the report user to determine which of the two visuals is visible.*
 
 	*The design of the third—and final—page is now complete.*
-
-### **Task 7: Publish the report**
-
-In this task you will publish the report.
-
-1. Select the **Overview** page.
-
-2. Save the Power BI Desktop file.
-
-3. On the **Home** ribbon tab, from inside the **Share** group, click **Publish**.
-
-	![Picture 67](Linked_image_Files/07-design-report-in-power-bi-desktop_image59.png)
-
-4. In the **Publish to Power** BI window, notice that **My Workspace** is selected.
-
-5. To publish the report, click **Select**.
-
-	![Picture 75](Linked_image_Files/07-design-report-in-power-bi-desktop_image60.png)
-
-6. When the publication has succeeded, click **Got It**.
-
-	![Picture 76](Linked_image_Files/07-design-report-in-power-bi-desktop_image61.png)
-
-7. Leave Power BI Desktop open.
-
-	*You’ll explore the report in the Power BI service in the next exercise.*
 
 ## **Exercise 2: Explore the Report**
 
