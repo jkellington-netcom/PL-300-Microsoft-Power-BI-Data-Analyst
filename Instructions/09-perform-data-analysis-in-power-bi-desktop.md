@@ -18,35 +18,6 @@ In this lab you learn how to:
 - Use a visual to forecast values
 
 
-
-### **Lab story**
-
-This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
-
-1. Prepare Data in Power BI Desktop
-
-2. Load Data in Power BI Desktop
-
-3. Model Data in Power BI Desktop
-
-5. Create DAX Calculations in Power BI Desktop, Part 1
-
-6. Create DAX Calculations in Power BI Desktop, Part 2
-
-7. Design a Report in Power BI Desktop, Part 1
-
-8. Design a Report in Power BI Desktop, Part 2
-
-9. Create a Power BI Dashboard
-
-10. **Perform Data Analysis in Power BI Desktop**
-
-11. Enforce Row-Level Security
-
-## **Exercise 1: Create the Report**
-
-In this exercise you will create the **Sales Exploration** report.
-
 ### **Task 1: Get started – Sign in**
 
 In this task you will setup the environment for the lab by signing in to Power BI.
@@ -81,77 +52,7 @@ In this task you will setup the environment for the lab by signing in to Power B
 
 1. Leave the Microsoft Edge browser window open.
 
-### **Task 2: Get started – Create a dataset**
-
-In this task you will setup the environment for the lab by creating a dataset.
-
-*Important: If you have already published the dataset in the **Create a Power BI Dashboard** lab, continue from the next task.*
-
-1. In the Microsoft Edge browser window, in the Power BI service, in the **Navigation** pane, at the bottom, click **Get Data**.
-
-	![Picture 8](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image4.png)
-
-2. In the **Files** tile, click **Get**.
-
-	![Picture 10](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image5.png)
-
-3. Click the **Local File** tile.
-
-	![Picture 11](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image6.png)
-
-4. In the **Open** window, navigate to the **D:\PL300\Labs\08-create-power-bi-dashboard\Solution** folder.
-
-5. Select the **Sales Analysis.pbix** file, and then click **Open**.
-
-6. If prompted to replace the dataset, click **Replace**.
-
-### **Task 3: Create the report**
-
-In this task you will create the **Sales Exploration** report.
-
-1. To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
-
-	*Important: If you already have Power BI Desktop open (from a previous lab), close that instance.*
-
-	![Picture 14](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image7.png)
-
-2. To close the getting started window, at the top-left of the window, click **X**.
-
-	![Picture 13](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image8.png)
-
-3. If Power BI Desktop is not signed in to the Power BI service, at the top-right, click **Sign In**.
-
-	![Picture 16](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image9.png)
-
-4. Complete the sign in process using the same account used to sign in to the Power BI service.
-
-5. To save the file, click the **File** ribbon tab to open the backstage view.
-
-6. Select **Save**.
-
-	![Picture 12](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image10.png)
-
-7. In the **Save As** window, navigate to the **D:\PL300\MySolution** folder.
-
-8. In the **File Name** box, enter **Sales Exploration**.
-
-	![Picture 1](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image11.png)
-
-9. To create a live connection to the **Sales Analysis** dataset, on the **Home** ribbon tab, from inside the **Data** group, click **Power BI Datasets**.
-
-	![Picture 15](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image12.png)
-
-10. In the **Select a Dataset to Create a Report** window, select the **Sales Analysis** dataset.
-
-11. Click **Create**.
-
-	![Picture 17](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image13.png)
-
-12. Save the Power BI Desktop file.
-
-	*You’ll now create two report pages, and on each page you’ll work with a different visual to analyze and explore data.*
-
-## **Exercise 2: Create a Scatter Chart**
+## **Exercise 1: Create a Scatter Chart**
 
 In this exercise you will create a scatter chart that can be animated.
 
@@ -211,7 +112,7 @@ In this task you will create a scatter chart that can be animated.
 
 11. Save the Power BI Desktop file.
 
-## **Exercise 3: Create a Forecast**
+## **Exercise 2: Create a Forecast**
 
 In this exercise you will create a forecast to determine possible future sales revenue.
 
