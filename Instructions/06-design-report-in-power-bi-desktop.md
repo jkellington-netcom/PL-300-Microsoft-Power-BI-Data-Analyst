@@ -92,7 +92,7 @@ In this task you will design the first report page. When you’ve completed the 
 #### **Create a report**
 1. In Power BI, on the Home page, at the top right of the screen, click **New report**.
 2. In the Add data to get started section, click **Pick a published dataset**.
-3. On the Select a dataset to create a report page, click Sales Analysis, and then click the dropdown to select **Create a blank report**.
+3. On the Select a dataset to create a report page, select **Sales Analysis**, and then click the dropdown to select **Create a blank report**.
 
 #### Add visuals to the report
 1. In Power BI, to rename the page, at the bottom-left, right-click **Page 1**, and then select **Rename**.
