@@ -89,7 +89,12 @@ In this task you will design the first report page. When you’ve completed the 
 ![Image of page 1, comprising a logo, two slicers, and three visuals.](Linked_image_Files/07-design-report-in-power-bi-desktop_image12.png)
 
 	*Note: Due to network limitations of the VISA environment, you will not be uploading the logo image.*
+#### **Create a report**
+1. In Power BI, on the Home page, at the top right of the screen, click **New report**.
+2. In the Add data to get started section, click **Pick a published dataset**.
+3. On the Select a dataset to create a report page, click Sales Analysis, and then click the dropdown to select **Create a blank report**.
 
+#### Add visuals to the report
 1. In Power BI, to rename the page, at the bottom-left, right-click **Page 1**, and then select **Rename**.
 
 	![Picture 36](Linked_image_Files/07-design-report-in-power-bi-desktop_image13.png)
