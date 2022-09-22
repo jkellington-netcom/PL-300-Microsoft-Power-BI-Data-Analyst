@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Perform Data Analysis in Power BI Desktop'
+    module: 'Module 9 - Identify Patterns and Trends'
+---
+
 
 # **Perform Data Analysis in Power BI Desktop**
 
